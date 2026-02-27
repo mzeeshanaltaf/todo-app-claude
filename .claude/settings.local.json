@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create vite@latest . -- --template react-ts --yes)",
+      "Bash(npm create vite@latest . -- --template react-ts)",
+      "Bash(npm create vite@latest temp-scaffold -- --template react-ts)",
+      "Bash(npm install tailwindcss @tailwindcss/vite @dnd-kit/core @dnd-kit/sortable @dnd-kit/modifiers uuid)",
+      "Bash(npm install -D @types/uuid)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(npm run build)",
+      "Bash(git init)",
+      "Bash(git add README.md IMPLEMENTATION_PLAN.md index.html package.json vite.config.ts tsconfig.json tsconfig.app.json tsconfig.node.json eslint.config.js src/ public/)",
+      "Bash(git add .gitignore package-lock.json)",
+      "Bash(git remote add origin https://github.com/mzeeshanaltaf/todo-app-claude.git)",
+      "Bash(git branch -M main)",
+      "Bash(git push -u origin main)",
+      "Bash(git pull origin main --allow-unrelated-histories)",
+      "Bash(git checkout --ours README.md .gitignore)",
+      "Bash(git add README.md .gitignore)"
+    ]
+  }
+}
